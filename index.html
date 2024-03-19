@@ -5,26 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodie</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-  <!--Create Navigation bar-->  
-  <div class="navbar">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-  <!--Intro message-->
-  <div class="content">
-    <h1>Welcome to our Restaurant</h1>
-    <p>The best multi cuisine restaurant</p>
-  </div>
-  <div class="button">
-    <button type="button">Book Table</button>
-    <button type="button">View Menu</button>
-  </div>
+
+    <div class="intro-container">
+      <!--Create Navigation bar-->  
+      <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+        <!--Intro message-->
+      <div class="hero-text">
+        <h1>Welcome to our Restaurant</h1><br>
+        <p>The best multi cuisine restaurant</p><br>
+        <button type="button"><a href="#booktable">Book Table</a></button>
+        <button type="button">View Menu</button>
+      </div>
+    </div>
+    <!--About section-->
+    <div class="row">
+    
+      <div class="column">
+        
+        <img src="img/some food is placed on plates on a wooden table, in the style of mexican folklore-inspired, aerial view, school of london, sunil das, honest and raw, q hayashida, truls espedal.png" alt="">
+      </div>
+      <div class="column">
+        <h2>Our Story</h2>
+        <p>Foodie isn't just a restaurant, it's a love letter to food. We transform meals into adventures, bursting with globally-inspired flavors. Fresh, local ingredients fuel our kitchen, crafting dishes that tantalize your taste buds. Dive into our menu, a passport to culinary exploration. Foodie – where comfort food gets a twist, and every bite is an invitation to connect. Join us, and let your passion for food take flight.</p>
+      </div>
+    </div>
+    <!--Reservation form-->
+    <section>
+      <form id="booktable" class="form-control">
+
+      </form>
+    </section>
+
 
 </body>
 </html>
