@@ -1,12 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 
 .intro-container{
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/original-bc4daff221213728ec18f8f60159eba1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/bb8682e2-3879-422d-8351-56421d1a1234.webp);
     height: 100vh;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -27,7 +27,7 @@
     width: 80%;
     margin: auto;
     padding: 35px 0;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     float: right;
@@ -68,6 +68,9 @@ button a{
 button:hover{
     background-color: gray;
 }
+button:active{
+    color: rgb(245, 170, 8);
+}
 .row{
     display: flex;
 }
@@ -78,4 +81,7 @@ button:hover{
 
 .column{
     flex: 50%;
+}
+#about img{
+    border-radius: 8px;
 }
